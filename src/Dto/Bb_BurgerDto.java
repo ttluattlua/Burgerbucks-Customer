@@ -91,9 +91,30 @@ public class Bb_BurgerDto implements Serializable {
 		this.image_Seq = image_Seq;
 	}
 
+	public Bb_BurgerDto(int seq, String name, int ingredients01, int ingredients02, int ingredients03, int ingredients04,
+      int ingredients05, int ingredients06, int ingredients07, int ingredients08, int ingredients09, int creator,
+      int price, int cal, int del) {
+    super();
+    this.seq = seq;
+    this.name = name;
+    this.ingredients01 = ingredients01;
+    this.ingredients02 = ingredients02;
+    this.ingredients03 = ingredients03;
+    this.ingredients04 = ingredients04;
+    this.ingredients05 = ingredients05;
+    this.ingredients06 = ingredients06;
+    this.ingredients07 = ingredients07;
+    this.ingredients08 = ingredients08;
+    this.ingredients09 = ingredients09;
+    this.creator = creator;
+    this.price = price;
+    this.cal = cal;
+    this.del = del;
+  }
 
 
-	public int getSeq() {
+
+  public int getSeq() {
 		return seq;
 	}
 

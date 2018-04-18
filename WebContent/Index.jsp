@@ -6,11 +6,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Burgerbucks Customer</title>
 </head>
-<body>
+<body style="background-color: #c33a02;" align="center">
 
-<%
-response.sendRedirect("MainTemplate.jsp");
-%>
+<img src="./UI/BurgerAnimation.gif" style="margin-top: 60px;">
+
+<script type="text/javascript">
+  setTimeout(function() { 
+    alert("버거벅스에 오신 것을 환영합니다!");
+    location.href="MainTemplate.jsp";
+    }, 3200);
+</script>
 
 </body>
 </html>

@@ -121,10 +121,11 @@
       
       <!-- Modal Contents -->
       <div style="width: 800px; height: 560px; padding:10px;">
-        <form action="BurgerCont" method="get" name="burgerInfo" onsubmit="return logincheckValue()">
+        <form action="BurgerController" method="get" name="burgerInfo">
+          <input type="hidden" name="command" value="saveBurger">
           
           <!-- Name input-->
-          <div style="border:1px solid green;  width: 780px; height: 40px;">
+          <div style="width: 780px; height: 40px;">
             <div class="input-group" style="width: 300px; float:left;">
               <span class="input-group-addon">이름</span> 
               <input id="id" name="id" type="text" class="form-control" 
@@ -137,7 +138,7 @@
           
             <!-- Ingredient List -->
             <div style="height:440px; width: 320px; float: left;">
-              <div id="ingredientList" style="border:1px solid green; height:440px; width: 320px; vertical-align: bottom; display: table-cell;" align="center">            
+              <div id="ingredientList" style="border:1px solid lightgray; border-radius: 4px; height:440px; width: 320px; vertical-align: bottom; display: table-cell;" align="center">            
 	              
 	              <div style="height:30px; width: 318px; margin-bottom: 30px; z-index: 0; position: relative; display: block;">
 	                <div style="height:30px; width: 140px; float:left;" align="center">
@@ -154,7 +155,7 @@
             </div>
             
             <!-- Ingredient Select -->
-            <div style="border:1px solid green; height:440px; width: 450px; float: right; display: inline-block;">
+            <div style="border:1px solid lightgray; border-radius: 4px; height:440px; width: 450px; float: right; display: inline-block;">
               
               <!-- Bread and Meat Select -->
               <div style="height:220px; width: 440px;">
@@ -199,7 +200,8 @@
             </div>
           </div>
           
-          <div style="border:1px solid green; width: 780px; margin-top:10px; height: 40px;">
+          <div style="width: 780px; margin-top:10px; height: 40px; padding-top: 2px;" align="center">
+            <button class="btn btn-success">햄버거 저장</button>
           </div>
           
         </form>
