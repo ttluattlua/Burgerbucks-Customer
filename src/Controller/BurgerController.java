@@ -135,7 +135,6 @@ public class BurgerController extends HttpServlet {
       System.out.println("\nBurgerController - saveBurger 실행" );
       
       //로그인을 위한 변수
-
       Bb_BurgerDto burger = (Bb_BurgerDto)req.getAttribute("burger");
       boolean burgerAdd = dao_burger.addBurger(burger);
       
