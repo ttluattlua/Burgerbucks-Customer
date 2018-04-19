@@ -99,16 +99,15 @@
 	  <del>0</del>
 	  <img>./Ingredient/Ingredient_Cheese.png</img>
 	</ingredient>
- 
-
-  <ingredient>
+	
+	<ingredient>
     <seq>11</seq>
-    <name>아무거나</name>
-    <types>2</types>
-    <price>5000</price>
-    <cal>300</cal>
+    <name>바뀌어라</name>
+    <types>3</types>
+    <price>3000</price>
+    <cal>200</cal>
     <del>0</del>
-    <img>이미지위치</img>
+    <img>이미지위치바뀜</img>
   </ingredient>
-
+ 
 </ingredientlist>

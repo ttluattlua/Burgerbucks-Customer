@@ -16,7 +16,7 @@
 
 <%
 String ingredient_xml = directoryFinder.directory + "ingredient.xml";
-Map<String, List<Bb_IngredientDto>> ingredient_map = xmlParser.xml_getIngredient(ingredient_xml);
+Map<String, List<Bb_IngredientDto>> ingredient_map = xmlParser.xml_getIngredient_classified(ingredient_xml);
 List<Bb_IngredientDto> bun_list = ingredient_map.get("bun_list");
 List<Bb_IngredientDto> patty_list = ingredient_map.get("patty_list");
 List<Bb_IngredientDto> vege_list = ingredient_map.get("vege_list");
