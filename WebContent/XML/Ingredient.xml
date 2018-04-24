@@ -99,15 +99,71 @@
 	  <del>0</del>
 	  <img>./Ingredient/Ingredient_Cheese.png</img>
 	</ingredient>
-	
-	<ingredient>
-    <seq>11</seq>
-    <name>바뀌어라</name>
-    <types>3</types>
-    <price>3000</price>
-    <cal>200</cal>
-    <del>0</del>
-    <img>이미지위치바뀜</img>
-  </ingredient>
  
+
+  <ingredient>
+    <seq>1</seq>
+    <name>호밀번</name>
+    <types>1</types>
+    <price>400</price>
+    <cal>300</cal>
+    <del>0</del>
+    <img/>
+  </ingredient>
+
+
+  <ingredient>
+    <seq>2</seq>
+    <name>호밀번</name>
+    <types>1</types>
+    <price>500</price>
+    <cal>60</cal>
+    <del>0</del>
+    <img/>
+  </ingredient>
+
+
+  <ingredient>
+    <seq>21</seq>
+    <name>호밀번</name>
+    <types>1</types>
+    <price>300</price>
+    <cal>30</cal>
+    <del>0</del>
+    <img/>
+  </ingredient>
+
+
+  <ingredient>
+    <seq>22</seq>
+    <name>치킨패티</name>
+    <types>2</types>
+    <price>800</price>
+    <cal>90</cal>
+    <del>0</del>
+    <img/>
+  </ingredient>
+
+
+  <ingredient>
+    <seq>23</seq>
+    <name>양상추</name>
+    <types>3</types>
+    <price>500</price>
+    <cal>20</cal>
+    <del>0</del>
+    <img/>
+  </ingredient>
+
+
+  <ingredient>
+    <seq>24</seq>
+    <name>치즈</name>
+    <types>4</types>
+    <price>500</price>
+    <cal>40</cal>
+    <del>0</del>
+    <img/>
+  </ingredient>
+
 </ingredientlist>

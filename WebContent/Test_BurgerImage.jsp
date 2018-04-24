@@ -1,3 +1,4 @@
+<%@page import="java.util.ArrayList"%>
 <%@page import="Util.burgerImageEditor"%>
 <%@page import="Dto.Bb_IngredientDto"%>
 <%@page import="java.util.List"%>
@@ -16,7 +17,14 @@
 <body>
 
 <%
-burgerImageEditor.addBurgerImage();
+List<Bb_IngredientDto> a = new ArrayList();
+a.add(new Bb_IngredientDto(0,"빵",0,300,300,0,directoryFinder.directory + "/Ingredient/Ingredient_Black.png"));
+a.add(new Bb_IngredientDto(0,"빵",0,300,300,0,directoryFinder.directory + "/Ingredient/Ingredient_Black.png"));
+a.add(new Bb_IngredientDto(0,"빵",0,300,300,0,directoryFinder.directory + "/Ingredient/Ingredient_Chicken.png"));
+a.add(new Bb_IngredientDto(0,"빵",0,300,300,0,directoryFinder.directory + "/Ingredient/Ingredient_Tomato.png"));
+a.add(new Bb_IngredientDto(0,"빵",0,300,300,0,directoryFinder.directory + "/Ingredient/Ingredient_Cheese.png"));
+a.add(new Bb_IngredientDto(0,"빵",0,300,300,0,directoryFinder.directory + "/Ingredient/Ingredient_Lettuce.png"));
+burgerImageEditor.addBurgerImage(a);
 %>
 
 <p>Burger Image Test</p>
